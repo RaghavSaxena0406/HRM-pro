@@ -4,6 +4,8 @@ import { NgModule } from '@angular/core';
 import { OptionComponent } from './option/option.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
+import { AppComponent } from './app.component';
+
 
 export const routes: Routes = [
     { path:'option', component: OptionComponent},
