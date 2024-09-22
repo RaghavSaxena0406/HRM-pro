@@ -1,0 +1,91 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family:"Poppin",'sans-serif';
+}
+section{
+    top:15%;
+    left:25%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    min-height:10vh;
+    width:50%;
+    background:black;
+    position:absolute;
+    z-index:0.1;
+    border-radius: 10%;
+}
+.register{
+    width:750px;
+    border-radius: 20px;
+    border: 3px solid rgba(225,225,225,.1);
+    padding: 40px 35px 55px; 
+    background: transparent;
+    backdrop-filter: blur(4px);
+    box-shadow:0 0 10 rgba(0,0,0,.2);
+    color:white;
+}
+.register h1{
+    font-size: 30px;
+    text-align:center;
+    margin-bottom: 20px;
+}
+.register .input-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.input-box .input-field{
+    position: relative;
+    width:49%;
+    height:50px;
+    margin:13px 0;
+}
+.input-box .input-field input{
+    width:100%;
+    height:100%;
+    background:transparent;
+    border:2px solid rgba(225,225,225,.8);
+    outline:none;
+    font-size:16px;
+    color:white;
+    border-radius: 10px;
+    padding: 15px 15px 15px 40px;
+}
+.input-field .input-box input::placeholder{
+    color:white;
+
+}
+.input-box .input-field i{
+    position:absolute;
+    left:15px;
+    top:50%;
+    transform:translateY(-50%);
+    font-size:20px;
+}
+.register label{
+    display : inline-block;
+    font-size:14.5;
+    margin:10px 0 23px;
+}
+.register label input{
+    accent-color: #fff;
+    margin-right:5px;
+}
+.register .btn{
+    width:100%;
+    height:40px;
+    background:white;
+    border:none;
+    outline:none;
+    border-radius:6px;
+    box-shadow:0 0 10px rgba(0,0,0,.1);
+    cursor:pointer;
+    font-size:16px;
+    color:#333;
+    font-weight:600;
+}
